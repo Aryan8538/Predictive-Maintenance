@@ -1,0 +1,6 @@
+# Place CWRU and NASA IMS datasets here
+# Expected CWRU .mat files:
+# 97.mat (Normal baseline)
+# 105.mat (Inner race fault 7 mil)
+# 118.mat (Ball fault 7 mil)
+# 130.mat (Outer race fault 7 mil)

@@ -1,0 +1,54 @@
+# Environment variables & secrets
+.env
+*.env
+secrets.h
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ML datasets & large artifacts
+ml/data/*
+!ml/data/.gitkeep
+*.mat
+*.csv
+*.zip
+*.tar.gz
+
+# Node / React
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.env.local
+dashboard/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
